@@ -1,0 +1,6 @@
+function (err){
+        if(err){
+            res.status(500).send('Internal Server Error');
+        }
+        res.send('Success!');
+    }
